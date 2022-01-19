@@ -1,0 +1,16 @@
+.button {
+  width: 100px;
+  height: 100px;
+}
+
+.primary {
+  background: blueviolet;
+}
+
+.secondary {
+  background: black;
+}
+
+.error {
+  background: red;
+}
