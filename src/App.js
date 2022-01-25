@@ -1,17 +1,33 @@
 import "./App.css";
 
-import { Counter } from "./components/Counter/Counter";
 import { CardList } from "./components/CardList/CardList";
-import { Form } from "./components/Form/Form";
+import { CardListFB } from "./components/CardList/CardListFB";
+import { OnlinerList } from "./components/Onliner/OnlinerList";
 
 function App() {
   return (
     <div>
-      <Form />
-      <Counter />
-      <Counter />
-      <Counter />
-      <CardList />
+      <div
+        style={{
+          display: "flex",
+          marginLeft: "auto",
+          marginRight: "auto",
+          width: "700px",
+        }}
+      >
+        <CardList />
+      </div>
+      <div>
+        <CardListFB />
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+        }}
+      >
+        <OnlinerList />
+      </div>
     </div>
   );
 }

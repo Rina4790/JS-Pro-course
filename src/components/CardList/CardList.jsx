@@ -6,10 +6,11 @@ export const CardList = () => {
     return (
       <Card
         key={index}
-        name={card.name}
-        place={card.place}
-        image={card.image}
-      />
+        title={card.title}
+        subtitle={card.subtitle}
+        author={card.author}
+		 />
+		
     );
   });
 };
