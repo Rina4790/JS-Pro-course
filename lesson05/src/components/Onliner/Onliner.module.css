@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
+
+.cardOnliner {
+  position: relative;
+  max-width: 970px;
+  margin: 10px;
+}
+
+.cardContent {
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  left: 25px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  width: 93%;
+  height: 85%;
+  align-items: stretch;
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 19px;
+  line-height: 27px;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  background-color: rgb(254, 231, 3);
+  padding: 10px 20px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.viewCount {
+  background: #e00;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.viewCount::after {
+  display: block;
+  content: " ";
+  background-image: url("https://tech.onliner.by/assets/images/i-eye-open-white.svg");
+  background-size: 28px 28px;
+  height: 28px;
+  width: 28px;
+  margin-left: 10px;
+}
+
+.title {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(7, 6, 6, 0.623);
+  font-size: 39px;
+  line-height: 1;
+}
